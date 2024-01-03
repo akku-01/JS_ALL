@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ff9e1c748b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="buttons">
+        <button onclick="showToast(successMsg)">Success</button>
+        <button onclick="showToast(invalidMsg)">Invalid</button>
+        <button onclick="showToast(failedMsg)">Error</button>
+    </div>
+
+    <div id="toast">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
